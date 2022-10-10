@@ -1,0 +1,46 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  background-color: darkgray;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.numberRow {
+  display: flex;
+}
+
+.numberBlock {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 0.5rem;
+
+  background-color: black;
+}
+
+h3 {
+  color: white;
+}
+
+.errorWording {
+  color: #e32914;
+}

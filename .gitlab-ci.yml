@@ -1,0 +1,28 @@
+image: node:15
+
+stages:
+  - install
+  - build
+  - test
+
+install-dep:
+  stage: install
+  script:
+    - echo "Install Dependencies:"
+    - npm install
+
+build-code:
+  stage: build
+  script:
+    - echo "Build the code:"
+    - npm run build
+
+test-code:
+  stage: test
+  script:
+    - echo "Run tests:"
+    - npm run test
+
+cache:
+  paths:
+    - node_modules/
