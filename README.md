@@ -1,4 +1,4 @@
-# Tom Winstanley's Fibonacci Kata
+# Fibonacci
 
 ## Available Scripts
 
